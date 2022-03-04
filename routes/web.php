@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $array_link_header = config('header-links');
     $array_fumetti = config('comics');
-    return view('app',['link'=>$array_link_header],['fumetti'=>$array_fumetti]);
+    return view('layouts.app',['link'=>$array_link_header,'fumetti'=>$array_fumetti]);
 });

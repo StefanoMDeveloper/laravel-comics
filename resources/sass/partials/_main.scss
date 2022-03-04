@@ -1,3 +1,56 @@
-main{
-    color: white;
+main {
+    .view {
+        background-color: #1c1c1c;
+        min-height: 200px;
+        padding: 0px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .jumbo {
+        height: 400px;
+        overflow: hidden;
+        background-image: url("../images/jumbotron.jpg");
+        background-position: top center;
+    }
+
+    //prodotti
+    .titolo {
+        background-color: #0282f9;
+        display: inline-block;
+
+        h3 {
+            color: white;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+    }
+    .products-list {
+        min-height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .product {
+        width: 180px;
+        margin: 20px 0;
+
+        display: inline-block;
+        .immagine {
+            height: 170px;
+            text-align: center;
+
+            img {
+                height: 170px;
+            }
+        }
+        h5 {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 0;
+        }
+    }
 }

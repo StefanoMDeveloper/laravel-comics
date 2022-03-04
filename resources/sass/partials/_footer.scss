@@ -1,3 +1,105 @@
 footer{
-    color: white;
+    .view-1 {
+        background-color: #0282f9;
+      
+        .footer-container {
+          display: flex;
+          justify-content: space-evenly;
+      
+          .item {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+          }
+        }
+      }
+      
+      .buy-fumetti {
+        height: 50px;
+      }
+      
+      .item-title {
+        color: white;
+        text-transform: uppercase;
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 12px;
+        margin-left: 15px;
+      }
+
+      //2
+
+      .view-2 {
+        background-image: url("../images/footer-bg.jpg");
+        height: 360px;
+        overflow: hidden;
+      }
+      
+      .container-1{
+          display: flex;
+          justify-content: space-between;
+      }
+      
+      .left {
+        float: left;
+        padding: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 5px;
+        h3 {
+          color: white;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+      
+        li {
+          color: darkgray;
+          font-size: 13px;
+          padding: 3px;
+        }
+      }
+      
+      .logo{
+          transform: translate(0,-25%);
+      }
+
+      //3
+
+      .view-3 {
+        background-color: #303030;
+      }
+      
+      .container-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .signUp {
+        border: 2px solid #0282f9;
+      }
+      h3 {
+        color: white;
+        padding: 10px;
+        text-transform: uppercase;
+      }
+      
+      .social {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+        h3 {
+          text-transform: uppercase;
+          color: #0282f9;
+        }
+      
+        .social {
+          height: 30px;
+          margin: 10px;
+        }
+      }
 }
